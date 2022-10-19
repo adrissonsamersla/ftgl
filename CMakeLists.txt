@@ -8,7 +8,7 @@ SET(VERSION_MAJOR 4)
 SET(VERSION_MINOR 0)
 SET(FTGL_SOVERSION 1)
 
-FIND_PACKAGE(Freetype REQUIRED) # if it fails, check this: https://bugs.launchpad.net/ubuntu/+source/cmake/+bug/826988
+FIND_PACKAGE(freetype REQUIRED) # if it fails, check this: https://bugs.launchpad.net/ubuntu/+source/cmake/+bug/826988
 FIND_PACKAGE(OpenGL   REQUIRED)
 
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/src)
