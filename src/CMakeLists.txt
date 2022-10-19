@@ -118,7 +118,7 @@ SET(ftlayout_sources
 
 ADD_LIBRARY(ftgl ${libftgl_la_SOURCES} ${ftgl_headers} ${ftglyph_sources} ${ftfont_sources} ${ftlayout_sources})
 TARGET_LINK_LIBRARIES(ftgl
-	${FREETYPE_LIBRARIES}
+	freetype
 	${OPENGL_LIBRARIES}
 )
 
